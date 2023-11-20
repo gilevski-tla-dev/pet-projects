@@ -1,0 +1,122 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Отдел кадров
+</name>
+</assembly>
+<members>
+<member name="T:Отдел_кадров.My.Resources.Resources">
+<summary>
+  Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+</summary>
+</member>
+<member name="P:Отдел_кадров.My.Resources.Resources.ResourceManager">
+<summary>
+  Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+</summary>
+</member>
+<member name="P:Отдел_кадров.My.Resources.Resources.Culture">
+<summary>
+  Перезаписывает свойство CurrentUICulture текущего потока для всех
+  обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+</summary>
+</member>
+<member name="T:Отдел_кадров.My.Resources.resOK">
+<summary>
+  Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+</summary>
+</member>
+<member name="P:Отдел_кадров.My.Resources.resOK.ResourceManager">
+<summary>
+  Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+</summary>
+</member>
+<member name="P:Отдел_кадров.My.Resources.resOK.Culture">
+<summary>
+  Перезаписывает свойство CurrentUICulture текущего потока для всех
+  обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+</summary>
+</member>
+<member name="P:Отдел_кадров.My.Resources.resOK._20">
+<summary>
+  Поиск локализованного ресурса типа System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Отдел_кадров.My.Resources.resOK._add">
+<summary>
+  Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+</summary>
+</member>
+<member name="P:Отдел_кадров.My.Resources.resOK._edit">
+<summary>
+  Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+</summary>
+</member>
+<member name="P:Отдел_кадров.My.Resources.resOK._exit">
+<summary>
+  Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+</summary>
+</member>
+<member name="P:Отдел_кадров.My.Resources.resOK._save">
+<summary>
+  Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+</summary>
+</member>
+<member name="P:Отдел_кадров.My.Resources.resOK.add">
+<summary>
+  Поиск локализованного ресурса типа System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Отдел_кадров.My.Resources.resOK.copy16х16">
+<summary>
+  Поиск локализованного ресурса типа System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Отдел_кадров.My.Resources.resOK.cut16х16">
+<summary>
+  Поиск локализованного ресурса типа System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Отдел_кадров.My.Resources.resOK.DeleteRed">
+<summary>
+  Поиск локализованного ресурса типа System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Отдел_кадров.My.Resources.resOK.edit">
+<summary>
+  Поиск локализованного ресурса типа System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Отдел_кадров.My.Resources.resOK.Exit_16x16">
+<summary>
+  Поиск локализованного ресурса типа System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Отдел_кадров.My.Resources.resOK.fl">
+<summary>
+  Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+</summary>
+</member>
+<member name="P:Отдел_кадров.My.Resources.resOK.i_exit">
+<summary>
+  Поиск локализованного ресурса типа System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Отдел_кадров.My.Resources.resOK.i_save">
+<summary>
+  Поиск локализованного ресурса типа System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Отдел_кадров.My.Resources.resOK.Open_16х16">
+<summary>
+  Поиск локализованного ресурса типа System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Отдел_кадров.My.Resources.resOK.paste16х16">
+<summary>
+  Поиск локализованного ресурса типа System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

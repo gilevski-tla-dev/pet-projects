@@ -1,0 +1,33 @@
+c:\users\zao\documents\visual studio 2015\Projects\Отдел кадров\Отдел кадров\bin\Debug\Отдел кадров.exe.config
+C:\Users\zao\documents\visual studio 2015\Projects\Отдел кадров\Отдел кадров\obj\Debug\Отдел_кадров.Resources.resources
+C:\Users\zao\documents\visual studio 2015\Projects\Отдел кадров\Отдел кадров\obj\Debug\Отдел кадров.vbproj.GenerateResource.Cache
+C:\Users\zao\documents\visual studio 2015\Projects\Отдел кадров\Отдел кадров\obj\Debug\Отдел кадров.xml
+C:\Users\zao\documents\visual studio 2015\Projects\Отдел кадров\Отдел кадров\obj\Debug\Отдел_кадров.resOK.resources
+C:\Users\zao\documents\visual studio 2015\Projects\Отдел кадров\Отдел кадров\bin\Debug\Отдел кадров.exe
+C:\Users\zao\documents\visual studio 2015\Projects\Отдел кадров\Отдел кадров\bin\Debug\Отдел кадров.pdb
+C:\Users\zao\documents\visual studio 2015\Projects\Отдел кадров\Отдел кадров\bin\Debug\Отдел кадров.xml
+C:\Users\zao\documents\visual studio 2015\Projects\Отдел кадров\Отдел кадров\obj\Debug\Отдел кадров.exe
+C:\Users\zao\documents\visual studio 2015\Projects\Отдел кадров\Отдел кадров\obj\Debug\Отдел кадров.pdb
+C:\Users\zao\documents\visual studio 2015\Projects\Отдел кадров\Отдел кадров\obj\Debug\Отдел кадров.vbprojResolveAssemblyReference.cache
+C:\Users\zao\documents\visual studio 2015\Projects\Отдел кадров\Отдел кадров\obj\Debug\Отдел_кадров.frmFL.resources
+C:\Users\zao\documents\visual studio 2015\Projects\Отдел кадров\Отдел кадров\obj\Debug\Отдел_кадров.frmFLList.resources
+C:\Users\zao\documents\visual studio 2015\Projects\Отдел кадров\Отдел кадров\obj\Debug\Отдел_кадров.frmWorkerList2.resources
+C:\Users\zao\documents\visual studio 2015\Projects\Отдел кадров\Отдел кадров\obj\Debug\Отдел_кадров.frmWorker.resources
+C:\Проекты\Отдел кадров\Отдел кадров\bin\Debug\Отдел кадров.exe.config
+C:\Проекты\Отдел кадров\Отдел кадров\bin\Debug\Отдел кадров.exe
+C:\Проекты\Отдел кадров\Отдел кадров\bin\Debug\Отдел кадров.pdb
+C:\Проекты\Отдел кадров\Отдел кадров\bin\Debug\Отдел кадров.xml
+C:\Проекты\Отдел кадров\Отдел кадров\obj\Debug\Отдел кадров.vbproj.AssemblyReference.cache
+C:\Проекты\Отдел кадров\Отдел кадров\obj\Debug\Отдел кадров.vbproj.SuggestedBindingRedirects.cache
+C:\Проекты\Отдел кадров\Отдел кадров\obj\Debug\Отдел_кадров.frmFL.resources
+C:\Проекты\Отдел кадров\Отдел кадров\obj\Debug\Отдел_кадров.frmFLList.resources
+C:\Проекты\Отдел кадров\Отдел кадров\obj\Debug\Отдел_кадров.frmWorker.resources
+C:\Проекты\Отдел кадров\Отдел кадров\obj\Debug\Отдел_кадров.frmWorkerList2.resources
+C:\Проекты\Отдел кадров\Отдел кадров\obj\Debug\Отдел_кадров.Resources.resources
+C:\Проекты\Отдел кадров\Отдел кадров\obj\Debug\Отдел_кадров.resOK.resources
+C:\Проекты\Отдел кадров\Отдел кадров\obj\Debug\Отдел кадров.vbproj.GenerateResource.cache
+C:\Проекты\Отдел кадров\Отдел кадров\obj\Debug\Отдел кадров.vbproj.CoreCompileInputs.cache
+C:\Проекты\Отдел кадров\Отдел кадров\obj\Debug\Отдел кадров.exe
+C:\Проекты\Отдел кадров\Отдел кадров\obj\Debug\Отдел кадров.xml
+C:\Проекты\Отдел кадров\Отдел кадров\obj\Debug\Отдел кадров.pdb
+C:\Проекты\Отдел кадров\Отдел кадров\obj\Debug\Отдел_кадров.frmMain.resources
