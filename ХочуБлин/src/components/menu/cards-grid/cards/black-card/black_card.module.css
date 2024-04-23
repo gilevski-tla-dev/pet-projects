@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=KoHo:wght@200;300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Actor&family=Sofia+Sans:wght@100;200;300;400;500;600;700;800;900;1000&display=swap");
+@font-face {
+  font-family: "DRUZHOK";
+  src: url("./font/DRUZHOK.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 268px;
+  height: 335px;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  background: #272d39;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.title {
+  display: flex;
+  width: 148px;
+  height: 40px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+
+  font-family: "Segoe script";
+
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+.title_container {
+  display: flex;
+}
+
+.stars {
+  display: block;
+  margin-top: 17px;
+  margin-left: 4px;
+}
+
+.star1 {
+  margin-bottom: -15px;
+  margin-left: 8px;
+}
+
+.star2 {
+  margin-bottom: 30px;
+  margin-left: 4px;
+}
+
+.star_purple {
+  margin-bottom: -5px;
+  margin-left: 4px;
+}
+
+.bookmark {
+  margin-left: 196px;
+  margin-top: -70px;
+  box-sizing: content-box;
+  visibility: hidden;
+}
+
+.img_container {
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img_pancake {
+  display: block;
+}
+
+.img_border {
+  border-radius: 15px;
+  border: 2px solid #ffffff;
+  width: 225px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.price_container {
+  margin-left: calc(100vw / 53.33);
+  margin-top: calc(100vw / 128);
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 8px 0 0 13px;
+  min-width: 131px;
+}
+
+.price {
+  color: #1a1a1a;
+  font-family: "ABeeZee";
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 44px;
+  letter-spacing: 0.15em;
+}
+.price:after {
+  content: "р";
+  font-size: 16px;
+  margin-left: -5px;
+}
+
+.info_container {
+  display: flex;
+}
+
+.info_block {
+  margin-top: calc(100vw / 64);
+  margin-left: calc(100vw / 80);
+}
+
+.kilos,
+.gram,
+.gram::after,
+.kilos::after {
+  color: #fff;
+  font-family: "ABeeZee";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.kilos::after {
+  content: "ккал";
+}
+
+.gram::after {
+  content: "г";
+}
+
+.active {
+  animation: anim_bottom_top 1.5s;
+}
+
+@keyframes anim_bottom_top {
+  from {
+    transform: translateY(-110vh);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .price_container {
+    margin-left: 24px;
+    margin-top: 13px;
+  }
+  .info_block {
+    margin-top: 20px;
+    margin-left: 16px;
+  }
+}
+
+@media (max-width: 800px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .card {
+    width: 159.2px;
+    height: 199px;
+    border-radius: 10px;
+    border: 2px solid #ddc4fe;
+    background: #272d39;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+
+  .title {
+    display: flex;
+    width: 148px;
+    height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+
+    font-family: "Segoe Script";
+
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    margin-left: 19px;
+    margin-top: 10px;
+  }
+
+  .title_container {
+    display: flex;
+  }
+
+  .stars {
+    display: flex;
+    margin-left: -55px;
+    margin-top: 18px;
+  }
+
+  .star1 {
+    width: 4.411px;
+    height: 4.42px;
+    margin-top: 17px;
+
+    margin-left: 2px;
+  }
+
+  .star2 {
+    width: 4.411px;
+    height: 4.42px;
+    margin-top: -3px;
+    margin-left: -3px;
+  }
+
+  .star_purple {
+    width: 19.877px;
+    height: 19.936px;
+    margin-top: -1px;
+  }
+
+  .img_container {
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img_pancake {
+    display: block;
+    width: 131.063px;
+    height: 81.511px;
+  }
+
+  .img_border {
+    border-radius: 15px;
+    border: 2px solid #ddc4fe;
+    width: 133.657px;
+    height: 85.54px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .price_container {
+    margin-left: 14px;
+    margin-top: 7px;
+    border-radius: 10px;
+    padding: 5px 0 0 3px;
+    min-width: 78px;
+    height: 36px;
+  }
+
+  .price {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .price:after {
+    font-size: 11px;
+    margin-left: -5px;
+  }
+  .info_container {
+    display: flex;
+  }
+
+  .info_block {
+    margin-left: calc(100vw / 52.5);
+    margin-top: calc(100vw / 52.5);
+  }
+
+  .gram,
+  .kilos,
+  .gram::after,
+  .kilos::after {
+    font-size: 7px;
+  }
+}
+@media (max-width: 500px) {
+  .info_block {
+    margin-left: calc(100vw / 35.5);
+    margin-top: calc(100vw / 35.5);
+  }
+}

@@ -1,0 +1,83 @@
+.wrapper {
+    margin-right: 20px;
+    background-color: var(--th-block-bg);
+    opacity: 0.9;
+    transition: background-color 0.2s 0.1s, opacity 0.2s;
+    width: 84px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 6px;
+    cursor: pointer;
+    position: relative;
+}
+.wrapper:hover {
+    opacity: 1;
+}
+.wrapper::before {
+    position: absolute;
+    content: '';
+    width: 33px;
+    height: 31px;
+    border-radius: 10px;
+    background-color: var(--th-active-bg);
+    transition: 0.1s;
+    left: 6px;
+}
+.wrapper.active::before {
+    left: 45px;
+}
+.icon {
+    user-select: none;
+    pointer-events: none;
+    padding: 4px;
+    width: 31px;
+    height: 29px;
+    z-index: 2;
+}
+
+@media screen and (max-width: 640px) {
+    .wrapper {
+        width: 61px;
+        height: 30px;
+        border-radius: 16px;
+        padding: 4px;
+    }
+    .wrapper::before {
+        width: 22px;
+        height: 22px;
+        border-radius: 15px;
+        left: 4px;
+    }
+    .icon {
+        width: 22px;
+        height: 22px;
+    }
+    .wrapper.active::before {
+        left: 35px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .wrapper {
+        width: 41px;
+        height: 20px;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    .wrapper::before {
+        width: 15px;
+        height: 15px;
+        border-radius: 10px;
+        left: 4px;
+    }
+    .icon {
+        width: 19px;
+        height: 19px;
+    }
+    .wrapper.active::before {
+        left: 23px;
+    }
+}

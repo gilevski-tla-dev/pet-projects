@@ -1,0 +1,327 @@
+.wrapper {
+  height: 1205px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info__container {
+  width: 1300px;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+}
+.info_title {
+  position: absolute;
+  z-index: 0;
+}
+
+.info_title2 {
+  width: 326px;
+  height: 45px;
+  border: rgba(193, 144, 255, 1) 1px solid;
+  border-radius: 15px;
+  position: absolute;
+  align-self: flex-start;
+  margin-left: 20px;
+  background: #131313;
+  font-size: 16px;
+  font-family: DRUZHOK;
+  color: #edae0c;
+  padding-left: 8px;
+  padding-top: 5px;
+  margin-top: -80px;
+  visibility: hidden;
+}
+.info_title_text {
+  position: absolute;
+  z-index: 1;
+  width: 1211px;
+  height: 185px;
+  font-family: "Segoe script";
+  font-size: 48px;
+  color: #edae0c;
+  padding-top: 22px;
+  padding-left: 15px;
+  line-height: 70px;
+}
+.info_block {
+  width: 1173px;
+  height: 155px;
+  border: #edae0c 3px solid;
+  border-radius: 20px;
+  margin-top: 55px;
+}
+
+.send_form__container {
+  height: 705px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-top: 94px;
+}
+.send_form_title {
+  width: 549px;
+  height: 79px;
+  border: #edae0c 2px solid;
+  border-radius: 25px;
+  background: #272d39;
+  align-self: flex-start;
+  z-index: 2;
+  font-size: 48px;
+  color: #edae0c;
+  font-family: Segoe script;
+  text-align: center;
+  padding-top: 0px;
+}
+
+.send_form {
+  width: 1067px;
+  height: 626px;
+  border: #edae0c 2px solid;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 68px;
+  z-index: 1;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  grid-gap: 73.85px;
+  margin-top: 50px;
+}
+
+.input {
+  width: 424.94px;
+  height: 70px;
+  border: #edae0c 2px solid;
+  border-radius: 20px;
+  background: none;
+  font-size: 32px;
+  padding-left: 18.26px;
+  color: #edae0c;
+}
+
+.input::-webkit-input-placeholder {
+  color: #edae0c;
+}
+
+.send_form__label {
+  font-size: 32px;
+  color: #edae0c;
+  align-self: start;
+  margin-left: 90px;
+  margin-top: 27px;
+}
+.message_input {
+  width: 923px;
+  height: 254px;
+  border: #edae0c 2px solid;
+  border-radius: 20px;
+  background: none;
+  font-size: 32px;
+  color: #edae0c;
+  resize: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.send_button {
+  width: 425px;
+  height: 70px;
+  background: none;
+  border: #edae0c 2px solid;
+  border-radius: 20px;
+  font-family: Segoe script;
+  font-size: 28px;
+  color: #ffffff;
+  margin-top: 49px;
+}
+
+@media (hover: hover) {
+  .send_button:hover {
+    background-color: #edae0c;
+    color: #131313;
+  }
+}
+@media (hover: none) {
+  .send_button:active {
+    background-color: #edae0c;
+    color: #131313;
+  }
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+    height: 1205px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .info__container {
+    width: 400px;
+    height: 140px;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .info_title2 {
+    width: 326px;
+    height: 45px;
+    border: #edae0c 1px solid;
+    border-radius: 15px;
+    position: absolute;
+    align-self: flex-start;
+    margin-left: 20px;
+    background: #272d39;
+    font-size: 15px;
+    font-family: Segoe script;
+    color: #edae0c;
+    padding-left: 8px;
+    padding-top: 5px;
+    margin-top: -80px;
+    visibility: visible;
+    line-height: 1;
+  }
+  .info_title {
+    position: absolute;
+    z-index: 0;
+    visibility: hidden;
+  }
+
+  .info_title_text {
+    position: absolute;
+    z-index: 1;
+    width: 1211px;
+    height: 185px;
+    font-family: DRUZHOK;
+    font-size: 48px;
+    color: rgba(255, 229, 0, 1);
+    padding-top: 22px;
+    padding-left: 15px;
+    line-height: 70px;
+    visibility: hidden;
+  }
+  .info_block {
+    width: 344px;
+    height: 81px;
+    border: #edae0c 1px solid;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .send_form__container {
+    height: 436px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+  }
+  .send_form_title {
+    width: 177px;
+    height: 31px;
+    border: #edae0c 2px solid;
+    border-radius: 25px;
+    background: #272d39;
+    align-self: flex-start;
+    z-index: 2;
+    font-size: 16px;
+    color: #edae0c;
+    font-family: Segoe script;
+    text-align: center;
+  }
+
+  .send_form {
+    width: 343px;
+    height: 413px;
+    border: #edae0c 2px solid;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 23px;
+    z-index: 1;
+  }
+
+  .inputs {
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    grid-gap: 14px;
+    margin-top: 21px;
+  }
+
+  .input {
+    width: 293px;
+    height: 35px;
+    border: #edae0c 2px solid;
+    border-radius: 20px;
+    background: none;
+    font-size: 12px;
+    padding-left: 8px;
+    color: #edae0c;
+  }
+
+  .input::-webkit-input-placeholder {
+    color: #edae0c;
+  }
+
+  .send_form__label {
+    font-size: 12px;
+    color: #edae0c;
+    align-self: start;
+    margin-top: 19px;
+    margin-left: 34px;
+  }
+  .message_input {
+    width: 297px;
+    height: 211px;
+    border: #edae0c 2px solid;
+    border-radius: 20px;
+    background: none;
+    font-size: 12px;
+    color: #edae0c;
+    resize: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+
+  .send_button {
+    width: 136px;
+    height: 34px;
+    background: none;
+    border: #edae0c 2px solid;
+    border-radius: 20px;
+    font-family: Segoe script;
+    font-size: 15px;
+    color: #edae0c;
+    margin-top: 13px;
+  }
+  @media (hover: hover) {
+    .send_button:hover {
+      background-color: #edae0c;
+      color: #131313;
+    }
+  }
+  @media (hover: none) {
+    .send_button:active {
+      background-color: #edae0c;
+      color: #131313;
+    }
+  }
+}

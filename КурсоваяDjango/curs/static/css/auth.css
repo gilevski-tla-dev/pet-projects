@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(44, 117, 171, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  color: white;
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+.form {
+  width: 547px;
+  height: 534px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  margin-top: 140px;
+}
+
+.form_title {
+  width: 547px;
+  height: 66px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 66px;
+}
+
+.form_bottom {
+  width: 547px;
+  height: 66px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 66px;
+  position: absolute;
+  bottom: 0;
+}
+
+.form_bottom > a {
+  text-decoration: none;
+  color: black;
+}
+
+.name_input {
+  color: rgb(0, 0, 0);
+  width: 483px;
+  height: 55px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+  align-self: center;
+  padding-left: 20px;
+  font-size: 24px;
+}
+
+.pass_input {
+  color: rgb(0, 0, 0);
+  width: 483px;
+  height: 55px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+  align-self: center;
+  padding-left: 20px;
+  font-size: 24px;
+}
+
+.label1 {
+  margin-left: 35px;
+  margin-top: 52px;
+}
+
+.label2 {
+  margin-top: 50px;
+  margin-left: 35px;
+}
+
+.buttons {
+  align-self: center;
+  margin-top: 40px;
+}
+
+.forgot_button {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.auth_button {
+  height: 48px;
+  width: 241px;
+  background-color: rgba(44, 117, 171, 1);
+  color: white;
+  border-radius: 15px;
+  border: none;
+  font-size: 24px;
+  margin-left: 108px;
+}

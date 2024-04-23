@@ -1,0 +1,22 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  grid-column-gap: 38px;
+  grid-row-gap: 35px;
+  margin-left: 47px;
+  margin-right: 47px;
+}
+
+@media (max-width: 800px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    grid-column-gap: 38px;
+    grid-row-gap: 35px;
+    margin-left: 47px;
+    margin-right: 47px;
+    margin-top: -60px;
+  }
+}

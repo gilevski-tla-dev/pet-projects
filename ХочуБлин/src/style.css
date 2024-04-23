@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@font-face {
+    font-family: 'Druzhok';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/druzhok.woff') format('woff');
+}
+@font-face {
+    font-family: 'segoescript';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/segoescript.woff') format('woff');
+}
+@font-face {
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/ABeeZee.woff') format('woff');
+}
+
+:root[data-theme='dark'] {
+    --background-color: #272d39;
+    --text-color: #ffffff;
+    --th-block-bg: #232323;
+    --th-active-bg: #acc25d;
+    --footer-bg-color: #212630;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    user-select: none;
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 400;
+    color: var(--text-color);
+    box-sizing: border-box;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+}
+
+body {
+    padding-top: 114px;
+    transition: 0.2s;
+    background-color: var(--background-color);
+    height: 100vh;
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        padding-top: calc(100vw / 8.3);
+    }
+}
+/* @media screen and (max-width: 480px) {
+    body {
+        padding-top: 62px;
+    }
+} */

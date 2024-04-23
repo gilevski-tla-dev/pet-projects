@@ -1,0 +1,461 @@
+.popup_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.63);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 220px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  transition: all 1s ease-in-out;
+  margin-inline: auto;
+  inset-inline: 0;
+  inset-block-start: 50%;
+  transform: translateY(-50%);
+}
+
+.container {
+  width: 570px;
+  height: 539px;
+  border: 3px solid #edae0c;
+  background-color: #272d39;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  opacity: 1;
+}
+.open {
+  opacity: 0;
+  animation: anim 0.3s linear forwards;
+}
+.close {
+  opacity: 1;
+  animation: anim-rev 0.3s linear both;
+}
+@keyframes anim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes anim-rev {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.first_container {
+  width: 570px;
+  height: 201px;
+  display: flex;
+  margin-top: 71px;
+}
+
+.image_block {
+  width: 286.54px;
+  height: 188.11px;
+  border: 2px solid #edae0c;
+  border-radius: 30px;
+  margin-left: 29px;
+}
+
+.image_block > img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title_block {
+  width: 181px;
+  height: 188.11px;
+  border: 1px solid;
+  border-color: #edae0c rgba(255, 229, 0, 0);
+  margin-left: 43px;
+}
+
+.title {
+  font-family: "Segoe Script";
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  margin-top: 8px;
+  width: 181px;
+}
+
+.info_block {
+  width: 181px;
+  display: flex;
+  margin-top: 35px;
+}
+
+.kilos {
+  color: #fff;
+  text-align: center;
+  font-family: "Sofia Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.3px;
+  margin-left: 34px;
+}
+
+.kilos::after {
+  content: "ккал";
+  color: #fff;
+  font-family: "Sofia Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+.gram {
+  color: #fff;
+  text-align: center;
+  font-family: "Sofia Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.3px;
+}
+
+.gram::after {
+  content: "г";
+  color: #fff;
+  font-family: "Sofia Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+.about_title {
+  font-family: "Sofia Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  margin-left: 44px;
+  margin-top: 10px;
+}
+.about {
+  width: 492.06px;
+  height: 140.41px;
+  font-family: "Sofia Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  margin-left: 44px;
+  margin-top: 13px;
+}
+
+.price_container {
+  height: 48px;
+  width: 570px;
+  position: absolute;
+  bottom: 0;
+  border: 1px solid rgba(221, 196, 254, 1);
+  display: flex;
+  align-items: center;
+}
+
+.price_container > h2 {
+  font-family: Sofia Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  margin-left: 44px;
+}
+
+.price_container > h3 {
+  font-family: ABeeZee;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.15em;
+  text-align: center;
+  color: rgba(255, 229, 0, 1);
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.price_container > svg {
+  position: absolute;
+  margin-left: 202px;
+  margin-bottom: 17px;
+}
+.price_container > h4 {
+  font-family: ABeeZee;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.15em;
+  text-align: center;
+  margin-bottom: 13px;
+  margin-left: 10px;
+}
+.exit_btn {
+  position: absolute;
+  margin-left: 526.5px;
+  margin-top: 26.55px;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .popup_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+  .wrapper {
+    width: 95%;
+    position: fixed;
+    top: 220px;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    /* transition: all 1s ease-in-out; */
+    inset-inline: 0;
+    inset-block-start: 50%;
+    transform: translateY(-50%);
+  }
+  .container {
+    width: 100%;
+    height: 90%;
+    border: 1px solid #272d39;
+    background-color: #272d39;
+    border-radius: 30px 30px 0px 0px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+  }
+  .first_container {
+    width: 100%;
+    height: 360px;
+    display: flex;
+    margin: 0;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+  }
+  .image_block {
+    width: 100%;
+    height: 65%;
+    border: 1px solid #272d39;
+    border-radius: 30px 30px 0px 0px;
+    margin: 0;
+  }
+  .image_block > img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .title_block {
+    width: 100%;
+    height: 125px;
+    border: 1px solid;
+    border-color: #edae0c rgba(255, 229, 0, 0);
+    margin: 0;
+  }
+  .title {
+    font-family: "Segoe Script";
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 26.6px;
+    letter-spacing: 0.1em;
+    margin-top: 8px;
+    margin-left: 23px;
+    width: 308px;
+  }
+
+  .info_block {
+    width: 181px;
+    display: flex;
+    margin-top: 34px;
+    margin-left: 23px;
+  }
+
+  .kilos {
+    color: #fff;
+    text-align: center;
+    font-family: "ABeeZee";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.3px;
+    margin-left: 34px;
+  }
+
+  .kilos::after {
+    content: "ккал";
+    color: #fff;
+    font-family: "ABeeZee";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+  }
+
+  .gram {
+    color: #fff;
+    text-align: center;
+    font-family: "ABeeZee";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.3px;
+  }
+
+  .gram::after {
+    content: "г";
+    color: #fff;
+    font-family: "ABeeZee";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+  }
+  .about_title {
+    font-family: "ABeeZee";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    margin-left: 18px;
+    margin-top: 5px;
+  }
+  .about {
+    width: 342px;
+    height: 193px;
+    font-family: "ABeeZee";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    margin-left: 10px;
+    margin-top: 7px;
+  }
+  .price_container {
+    height: 52px;
+    width: 100%;
+    position: absolute;
+    margin-top: 76.5px;
+    border: 1px solid #edae0c;
+    border-color: #edae0c #272d39 #272d39 #272d39;
+    display: flex;
+    align-items: center;
+  }
+
+  .price_container > h2 {
+    font-family: ABeeZee;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    margin-left: 20px;
+  }
+
+  .price_container > h3 {
+    font-family: ABeeZee;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.15em;
+    text-align: center;
+    color: rgba(255, 229, 0, 1);
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  .price_container > svg {
+    position: absolute;
+    margin-left: 178px;
+    margin-bottom: 17px;
+  }
+  .price_container > h4 {
+    font-family: ABeeZee;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.15em;
+    text-align: center;
+    margin-bottom: 13px;
+    margin-left: 10px;
+  }
+
+  .exit_btn {
+    position: absolute;
+    margin-left: 91%;
+    margin-top: 5%;
+  }
+  .open {
+    opacity: 0;
+    animation: anim 0.4s normal forwards;
+  }
+  .close {
+    opacity: 1;
+    animation: anim-rev 0.4s forwards;
+  }
+  @keyframes anim {
+    0% {
+      bottom: -900px;
+    }
+    100% {
+      bottom: 0;
+      opacity: 1;
+    }
+  }
+  @keyframes anim-rev {
+    0% {
+      bottom: 0;
+      opacity: 1;
+    }
+    100% {
+      bottom: -900px;
+      opacity: 1;
+    }
+  }
+}
