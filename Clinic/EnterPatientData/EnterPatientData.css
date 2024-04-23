@@ -1,0 +1,140 @@
+.body {
+    width: 390px;
+    height: 844px;
+    background: #6f966f;
+}
+
+.logo {
+    width: 216px;
+    height: 41px;
+    flex-shrink: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 46px;
+}
+
+.text {
+    width: 315px;
+    height: 23px;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.enter_data__block {
+    width: 370px;
+    height: 379px;
+    flex-shrink: 0;
+    background: rgba(23, 26, 31, 0.55);
+    filter: drop-shadow(0px 4px 4px #000);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.inputs_container {
+    padding-top: 50px;
+    display: block;
+    width: 319px;
+    margin-left: 25px;
+    margin-right: auto;
+}
+
+.FIO {
+    width: 305px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #8ac0ff;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px #000;
+    color: rgba(0, 0, 0, 0.4);
+    padding-left: 17px;
+    font-family: Actor;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 60px;
+}
+
+.date_of_birth {
+    width: 305px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #8ac0ff;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px #000;
+    margin-top: 54px;
+    color: rgba(0, 0, 0, 0.4);
+    padding-left: 17px;
+    font-family: Actor;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.add_patient_button {
+    width: 285px;
+    height: 81px;
+    background: rgba(23, 26, 31, 0.55);
+    color: #fff;
+    display: block;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    filter: drop-shadow(0px 4px 4px #000);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 50px;
+}
+
+.backhome_button {
+    width: 185px;
+    height: 36px;
+    background: rgba(23, 26, 31, 0.55);
+    color: #fff;
+    display: block;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    filter: drop-shadow(0px 4px 4px #000);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.for__doctors {
+    width: 97px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}

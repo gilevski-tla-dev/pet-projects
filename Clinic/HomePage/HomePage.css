@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=KoHo:wght@200;300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+.body {
+    width: 390px;
+    height: 844px;
+    background: #6f966f;
+}
+
+.logo {
+    width: 216px;
+    height: 41px;
+    flex-shrink: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 46px;
+}
+
+.text {
+    width: 400px;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    margin-bottom: -20px;
+}
+
+.text2 {
+    width: 400px;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.add_patient_button {
+    width: 285px;
+    height: 81px;
+    background: rgba(23, 26, 31, 0.55);
+    color: #fff;
+    display: block;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    filter: drop-shadow(0px 4px 4px #000);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 112px;
+}
+
+.patients_button {
+    width: 285px;
+    height: 67px;
+    background: rgba(23, 26, 31, 0.55);
+    color: #fff;
+    display: block;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    filter: drop-shadow(0px 4px 4px #000);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 72px;
+}
+
+.for__doctors {
+    width: 97px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
